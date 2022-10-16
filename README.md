@@ -12,12 +12,12 @@ changes:
 - Added error messages if signal too weak, too strong.
 - and prints "angle = "
 
-## From the KHM.DE website (when it was there):
+## Original from the khm.de website (when the link worked):
 
-MLX90316 Rotary Position Sensor
-KHM 2010 /  Martin Nawrath
-Kunsthochschule fuer Medien Koeln
-Academy of Media Arts Cologne
+MLX90316 Rotary Position Sensor<br>
+KHM 2010 /  Martin Nawrath<br>
+Kunsthochschule fuer Medien Koeln<br>
+Academy of Media Arts Cologne<br>
 
 The MLX90316BDG is a rotary position sensor which measures the direction of a 
 magnetic field with an SPI interface. It is a substitution for potentiometers or 
