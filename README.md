@@ -10,7 +10,7 @@ But the above link is FUBAR; it's only here to give credit to the author(s).  An
 changes: 
 - Changed use of the UNIX "cron-like" Metro library and instead to use Chrono.
 - Added error messages if signal too weak, too strong.
-- and prints "angle = "
+- and prints "angle = " and the determined angle.
 
 ## Original from the khm.de website (when the link worked):
 
