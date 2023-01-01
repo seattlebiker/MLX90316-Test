@@ -18,7 +18,7 @@
 // rotation axis of the magnet should be placed over the center of the chip. 
 // The MLX90316 library helps to read the chip data.
 //
-// *Meaning a diametrically opposed Neobidinium magnet.
+// *Meaning a diametrically-magnetized Neobidinium magnet.
 //
 //===============================================================================
 //
@@ -96,7 +96,7 @@ void setup() {
 
 void loop() {
 
-  if ( mlxChrono.hasPassed(2) ) {   // returns true if it passed 1 second since it was started
+  if ( mlxChrono.hasPassed(2) ) {   // returns true if it passed 2 seconds since it was started
     mlxChrono.restart();            // restart the crono so that it triggers again later
     angle = mlx_1.readAngle();
     //angle = i/1;     //readAngle gives 10 * degrees, thus 3600 = is 360.0ยบ
